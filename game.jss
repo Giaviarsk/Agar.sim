@@ -5,7 +5,7 @@ canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
 const firstWords = ["Tiny", "Swift", "Bold", "Great", "Silent", "Giant", "Wild", "Forceful", "Mighty", "Sneaky", "Jolly", "Fierce", "Witty"];
-const secondWords = ["Hunter", "Eater", "Enlargener", "Taster", "Muncher", "Nibbler", "Chomper", "Crusher", "Gobbler", "Swallower", "Devourer", "Smasher"];
+const secondWords = ["Hunter", "Eater", "Enlargener", "Taster", "Muncher", "Nibbler", "Chomper", "Crusher", "Gobbler", "Devourer", "Smasher"];
 
 function getRandomName() {
     const firstName = firstWords[Math.floor(Math.random() * firstWords.length)];
